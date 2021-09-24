@@ -12,8 +12,6 @@ module.exports = withMDX({
 
 const debug = process.env.NODE_ENV !== 'production'
 
-// module.exports = {
-//   assetPrefix: !debug ? '/reinforcement_learning/' : '',
-// }
+module.exports.assetPrefix = !debug ? '/simultaneous_localization_and_mapping/' : '';
 
 
